@@ -11,7 +11,7 @@ const Home = props => {
       <Search/>
       <div className="row">
         {data.map(card=>(
-          <div className="col" key={card}>
+          <div className="col" key={Math.random()}>
             <Card/>
           </div>
         ))}
