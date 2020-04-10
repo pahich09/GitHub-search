@@ -17,7 +17,7 @@ const Home = () => {
           <Loader/>
           :
           users.map(user => (
-            <div className="col-sm-3" key={user.id}>
+            <div className="col-sm-6 col-lg-3" key={user.id}>
               <Card user={user}/>
             </div>
           ))

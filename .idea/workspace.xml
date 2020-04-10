@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b36dd76-ffda-4ec3-b5a0-2b167ea070b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Repos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Profile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +90,7 @@
       <workItem from="1586500625557" duration="1133000" />
       <workItem from="1586501778489" duration="5249000" />
       <workItem from="1586507052888" duration="19530000" />
-      <workItem from="1586536127463" duration="1610000" />
+      <workItem from="1586536127463" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="add page components">
       <created>1586505766640</created>
@@ -131,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586530337828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add repos component">
+      <created>1586537758251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586537758251</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +177,7 @@
     <MESSAGE value="add github state" />
     <MESSAGE value="add git API" />
     <MESSAGE value="add profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add profile page" />
+    <MESSAGE value="add repos component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add repos component" />
   </component>
 </project>

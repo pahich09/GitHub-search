@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 
-const About = props => {
+const About = () => {
   return (
     <div className="jumbotron">
       <h2>Информация</h2>
-      <p className="lead">Версия приложения <strong>0.0.1</strong></p>
+      <p className="lead">Версия приложения <strong>1.0.1</strong></p>
     </div>
   )
 }

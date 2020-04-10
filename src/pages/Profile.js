@@ -17,7 +17,7 @@ const Profile = props => {
     followers, following, public_repos,
   } = user
   if (loading) {
-    return <Loader/>
+    return <div className='d-flex'><Loader/></div>
   }
   return (
     <>
