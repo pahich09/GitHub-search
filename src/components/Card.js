@@ -1,20 +1,20 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const Card = props => {
+const Card = ({user}) => {
   return (
     <div className='card mb-4'>
       <img
-        src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png'
-        className="card-img-top" alt="image"/>
+        src={user.avatar_url}
+        className="card-img-top" alt={user.login}/>
       <div className="card-body">
         <h5 className="card-title">
-          React
+          {user.login}
         </h5>
         <p className="card-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
-        <Link className='btn btn-primary' to={'/profile/111'}>Открыть</Link>
+        <Link className='btn btn-primary' to={`profile/${user.login}`}>Открыть</Link>
       </div>
     </div>
   )

@@ -1,13 +1,13 @@
-import React from "react";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import React from "react"
+import {BrowserRouter, Route, Switch} from "react-router-dom"
 
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Profile from "./pages/Profile";
-import './index.scss';
-import {AlertState} from "./context/alert/alertState";
-import {GitHubState} from "./context/gitHub/gitHubState";
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Profile from "./pages/Profile"
+import './index.scss'
+import {AlertState} from "./context/alert/alertState"
+import {GitHubState} from "./context/gitHub/gitHubState"
 
 const App = () => {
   return (

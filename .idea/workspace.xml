@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b36dd76-ffda-4ec3-b5a0-2b167ea070b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/gitHub/gitHubContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/gitHub/gitHubReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/gitHub/gitHubState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/alert/alertState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/alert/alertState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/gitHub/gitHubReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/gitHub/gitHubReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/gitHub/gitHubState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/gitHub/gitHubState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +92,7 @@
       <updated>1586500622620</updated>
       <workItem from="1586500625557" duration="1133000" />
       <workItem from="1586501778489" duration="5249000" />
-      <workItem from="1586507052888" duration="10130000" />
+      <workItem from="1586507052888" duration="14407000" />
     </task>
     <task id="LOCAL-00001" summary="add page components">
       <created>1586505766640</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586512028347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add github state">
+      <created>1586519944798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586519944798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +155,7 @@
     <MESSAGE value="add page components" />
     <MESSAGE value="add card component" />
     <MESSAGE value="add useContext &amp; useReducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add useContext &amp; useReducer" />
+    <MESSAGE value="add github state" />
+    <option name="LAST_COMMIT_MESSAGE" value="add github state" />
   </component>
 </project>

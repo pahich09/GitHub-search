@@ -1,18 +1,20 @@
-import React from "react";
-import Search from "../components/Search";
-import Card from "../components/Card";
-import Alert from "../components/Alert";
+import React, {useContext} from "react"
+import Search from "../components/Search"
+import Card from "../components/Card"
+import Alert from "../components/Alert"
+import {GitHubContext} from "../context/gitHub/gitHubContext";
 
 const Home = props => {
-  const data = new Array(12).fill(1);
+  const gitHub = useContext(GitHubContext)
+  console.log(gitHub.users)
   return (
     <div>
       <Alert alert={{text: 'alert'}}/>
       <Search/>
       <div className="row">
-        {data.map(card=>(
-          <div className="col" key={Math.random()}>
-            <Card/>
+        {gitHub.users.map(user=>(
+          <div className="col-sm-3" key={user.id}>
+            <Card user={user}/>
           </div>
         ))}
       </div>
