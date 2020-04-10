@@ -3,17 +3,17 @@ import {AlertContext} from "../context/alert/alertContext"
 import {GitHubContext} from "../context/gitHub/gitHubContext"
 
 const Search = () => {
-  const {show} = useContext(AlertContext)
+  const {show, hide} = useContext(AlertContext)
   const gitHub = useContext(GitHubContext)
   const [value, setValue] = useState('')
   const onSubmit = e => {
     if (e.key !== 'Enter') {
       return
     }
+    gitHub.clearUsers()
     if (value.trim()) {
       gitHub.search(value.trim())
-      // gitHub.getRepos(value.trim())
-      // gitHub.getUser(value.trim())
+      hide()
     } else {
       show('Введите данные пользователя')
     }

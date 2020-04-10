@@ -3,22 +3,26 @@ import Search from "../components/Search"
 import Card from "../components/Card"
 import Alert from "../components/Alert"
 import {GitHubContext} from "../context/gitHub/gitHubContext";
+import {Loader} from "../components/Loader";
 
-const Home = props => {
-  const gitHub = useContext(GitHubContext)
-  console.log(gitHub.users)
+const Home = () => {
+  const {users, loading} = useContext(GitHubContext)
   return (
     <div>
       <Alert alert={{text: 'alert'}}/>
       <Search/>
       <div className="row">
-        {gitHub.users.map(user=>(
-          <div className="col-sm-3" key={user.id}>
-            <Card user={user}/>
-          </div>
-        ))}
+        {loading
+          ?
+          <Loader/>
+          :
+          users.map(user => (
+            <div className="col-sm-3" key={user.id}>
+              <Card user={user}/>
+            </div>
+          ))
+        }
       </div>
-
     </div>
   )
 }

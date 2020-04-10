@@ -11,9 +11,6 @@ const Card = ({user}) => {
         <h5 className="card-title">
           {user.login}
         </h5>
-        <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
         <Link className='btn btn-primary' to={`profile/${user.login}`}>Открыть</Link>
       </div>
     </div>
